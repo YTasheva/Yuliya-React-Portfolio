@@ -37,19 +37,19 @@
 
 ### Design
 
-Portfolio should look "polished" and "professional". Here are a few guidelines on what that means:
+The portfolio should look "polished" and "professional". Here are a few guidelines on what that means:
 
 * Mobile-first design
 
-* Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
+* Choose a colour palette for your site so it doesn't just look like the default Bootstrap theme or an unstyled HTML site.
 
-* Make sure the font size is large enough to read and that the colors don't cause eye strain.
+* Make sure the font size is large enough to read and the colours don't cause eye strain.
 
 ### Base Requirements
 
 * Technologies that must be used:
   * [ ] React
-  * [ ] Navigation with `React Router`, dynamic rendering, or another third part router
+  * [ ] Navigation with `React Router`, dynamic rendering, or another third-party router
 * Your portfolio **must contain** the following information:
   * [ ] Your name
   * [ ] Links to your:
@@ -67,18 +67,18 @@ Portfolio should look "polished" and "professional". Here are a few guidelines o
 
 ### Required Components
 
-* At a minium, your portfolio must render these 6 components:
+* At a minimum, your portfolio must render these 6 components:
   1. [ ] App
   2. [ ] Header
-  4. [ ] Home
-  5. [ ] Project Gallery
-  6. [ ] Project
-  7. [ ] Contact
+  3. [ ] Home
+  4. [ ] Project Gallery
+  5. [ ] Project
+  6. [ ] Contact
 
 ### Required Component Content
 
 * [ ] App:
-  * [ ] Must be your top level component and render all necessary children components
+  * [ ] Must be your top-level component and render all necessary children components
 * [ ] Header:
   * [ ] Must be rendered across the entire site
   * [ ] Must Contain a Navbar
@@ -86,8 +86,8 @@ Portfolio should look "polished" and "professional". Here are a few guidelines o
   * [ ] Must render dynamically 6 instances of the Project component
     * [ ] Be sure to store your project data in a JSON file and import it into your project
 * [ ] Project:
-  * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
-  * [ ] Must utilize router props to properly render the right project based on user selection
+  * [ ] Must be a reusable component that ingests JSON data as props and renders a single instance for each project.
+  * [ ] Must utilize router props to render the right project based on user selection properly
   * [ ] Must render the following info:
     * [ ] Project title
     * [ ] Link to the deployed version
@@ -107,12 +107,12 @@ Portfolio should look "polished" and "professional". Here are a few guidelines o
 
 #### LinkedIn
 
-* Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+* Make sure to update your LinkedIn Profile with the new skills you've gotten since the last time it was updated.
 * If you do not have a LinkedIn profile, please create one.
 
 #### GitHub
 
-* Update GitHub profile with pinned repositories featuring those same projects.
+* Update the GitHub profile with pinned repositories featuring those same projects.
 
 ## Technical Acceptance Criteria
 
@@ -130,7 +130,7 @@ Portfolio should look "polished" and "professional". Here are a few guidelines o
 
 * User interface style is clean and polished.
 
-* Application uses a color scheme other than the default Bootstrap color palette.
+* Application uses a colour scheme other than the default Bootstrap colour palette.
 
 * Repository has a unique name.
 
@@ -162,7 +162,7 @@ the code into your terminal for the respective repository. Then, install npm at 
 
 ## Author
 
-- Github - [Yuliya Tasheva](https://github.com/YTasheva)
+- GitHub - [Yuliya Tasheva](https://github.com/YTasheva)
 
 > [YTasheva.com](#) &nbsp;&middot;&nbsp;
 > LinkedIn [@YTasheva](https://github.com/YTasheva) &nbsp;&middot;&nbsp;
