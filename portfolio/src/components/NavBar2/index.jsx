@@ -41,7 +41,7 @@ function Navbar() {
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Projects
+                Project Gallery
               </NavLink>
             </li>
             <li className="nav-item">
