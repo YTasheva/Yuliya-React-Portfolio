@@ -1,11 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes } from "react-router-dom";
 import Form from 'react-bootstrap/Form';
-
-
-      
-      //Feel free to get in touch with me via social media or email using the contact form below.   
-      //I would truly like to hear what you think about the content and website or share what is on your mind.
       
 function Contact(props) {
   return (
