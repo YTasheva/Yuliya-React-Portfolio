@@ -25,28 +25,28 @@ function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="/about"
                 end
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Project
+                About
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to="/discover"
+                to="/work"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Project Gallery
+                Work
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to="/search"
+                to="/skills"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
@@ -56,7 +56,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/search"
+                to="/contact"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
@@ -66,7 +66,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/search"
+                to="/contact"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
