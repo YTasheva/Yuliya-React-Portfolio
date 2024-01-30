@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-function Alert(props) {
+const Alert = (props) => {
   return (
     <div
       role="alert"
@@ -10,6 +11,12 @@ function Alert(props) {
       {props.children}
     </div>
   );
-}
+};
+
+Alert.propTypes = {
+  type: PropTypes.string.isRequired,
+  style: PropTypes.object,
+  children: PropTypes.node,
+};
 
 export default Alert;
