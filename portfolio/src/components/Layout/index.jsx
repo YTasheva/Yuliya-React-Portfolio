@@ -1,8 +1,19 @@
+import { Outlet } from "react-router-dom";
+import Header from "./Header";
+import Navbar from "./Navbar";
+import Navbar2 from "./Navbar2";
+import Footer from "./Footer";
 
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Layout from "./components/Layout";
-import About from './pages/About';
-import Discover from './pages/Discover';
-import Search from './pages/Search';
-import Navbar from './components/Navbar';
+const Layout = () => {
+  return (
+    <div className="App">
+      <Header title="Yuliya's Portfolio" />
+      <Navbar />
+      <Navbar2 />
+      <Outlet />
+      <Footer />
+    </div>
+  );
+};
+
+export default Layout;
