@@ -1,8 +1,7 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
-import Form from "react-bootstrap/Form";
+import { Form, Button } from "react-bootstrap/Form";
 
-function Contact(props) {
+function Contact() {
   return (
     <div>
       <h1 class name="text-center">
