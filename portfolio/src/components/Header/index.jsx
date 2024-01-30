@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Header = ({ title }) => {
   return (
     <header className="Header">
