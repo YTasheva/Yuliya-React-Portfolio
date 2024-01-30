@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import './style.css';
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import "./style.css";
 
 // Sets the "active" class on the appropriate navigation link item
 function Navbar() {
@@ -28,7 +28,7 @@ function Navbar() {
                 to="/about"
                 end
                 className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
+                  isActive ? "nav-link active" : "nav-link"
                 }
               >
                 About
@@ -38,7 +38,7 @@ function Navbar() {
               <NavLink
                 to="/work"
                 className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
+                  isActive ? "nav-link active" : "nav-link"
                 }
               >
                 Work
@@ -48,7 +48,7 @@ function Navbar() {
               <NavLink
                 to="/skills"
                 className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
+                  isActive ? "nav-link active" : "nav-link"
                 }
               >
                 Skills
@@ -58,7 +58,7 @@ function Navbar() {
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
+                  isActive ? "nav-link active" : "nav-link"
                 }
               >
                 Contact
@@ -68,10 +68,9 @@ function Navbar() {
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
+                  isActive ? "nav-link active" : "nav-link"
                 }
-              >
-              </NavLink>
+              ></NavLink>
             </li>
           </ul>
         </div>
@@ -81,4 +80,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
