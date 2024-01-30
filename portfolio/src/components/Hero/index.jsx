@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import PropTypes from "prop-types";
 
 function Hero(props) {
   return (
@@ -11,5 +12,10 @@ function Hero(props) {
     </div>
   );
 }
+
+Hero.propTypes = {
+  backgroundImage: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};
 
 export default Hero;
