@@ -8,18 +8,19 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Navbar2 from "./components/NavBar2";
 
 function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Navbar2 />
         <Wrapper>
           <Routes>
             <Route path="/" element={<Layout />} />
             <Route path="/home" element={<Home />} />
+            <Route path="/projects" element={<ProjectGallery />} />
             <Route path="/project" element={<Project />} />
-            <Route path="/projectGallery" element={<ProjectGallery />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
