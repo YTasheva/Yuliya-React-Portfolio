@@ -17,7 +17,7 @@ function Contact(props) {
           placeholder="name"
           custom
         />
-        <label htmlFor="floatingInputCustom">name</label>
+        <label htmlFor="floatingInputCustom">Name</label>
       </Form.Floating>
         <Form.Floating>
         <Form.Control
