@@ -8,7 +8,7 @@ import projects from "../projects.json";
 function ProjectGallery() {
   return (
     <div>
-      <main id="projects" class name="container-fluid">
+      <main id="projects" className="container-fluid">
         <h1 className="text-center">Projects Gallery</h1>
         <hr />
         <Container style={{ marginTop: 30 }}>
