@@ -4,7 +4,7 @@ import projects from "../data.json";
 
 const Project = () => {
   const { id } = useParams();
-  const project = projectGallery.find((project) => project.id === id);
+  const project = projects.find((project) => project.id === id);
 
   return (
     <div className="container">
@@ -29,13 +29,13 @@ const Project = () => {
           <img
             className="img-fluid"
             src={project.image_url}
-            alt={projectGallery.id}
+            alt={projects.id}
           />
         </div>
       </div>
       <div className="row">
         <div className="col">
-          <Link to="/projectGallery">← Back to Projects</Link>
+          <Link to="/projects">← Back to Projects</Link>
         </div>
       </div>
     </div>
