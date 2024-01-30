@@ -5,10 +5,10 @@ function Skills() {
     <>
       <main id="skills">
         <h1 className="text-center">Skills</h1>
-         <hr /> 
+        <hr />
         <div className="container text-center">
           <div className="list-unstyled row justify-content-evenly">
-          <div className="col-4">
+            <div className="col-4">
               <i
                 className="fa-brands fa-square-git fa-7x"
                 aria-hidden="true"
@@ -44,7 +44,7 @@ function Skills() {
               ></i>
               <p>Bootstrap</p>
             </div>
-        
+
             <div className="col-4">
               <i
                 className="fa-brands fa-js fa-7x text-warning"
