@@ -8,7 +8,7 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
-import Navbar2 from "./components/NavBar2";
+import Navbar2 from "./components/Navbar2";
 
 function App() {
   return (
