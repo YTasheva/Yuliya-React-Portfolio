@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
-const HtmlToReactParser = require("html-to-react").Parser;
-const ReactDOMServer = require("react-dom/server");
 
-function Footer() {
+const Footer = () => {
   const today = new Date();
   return (
     <footer className="footer text-center bg-dark text-light container-fluid flex-column pt-3">
