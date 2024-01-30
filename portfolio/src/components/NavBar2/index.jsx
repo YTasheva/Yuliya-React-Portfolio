@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import './style.css';
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import "./style.css";
 
 // Sets the "active" class on the appropriate navigation link item
 function Navbar() {
@@ -8,7 +8,8 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <Link className="navbar-brand" to="/">
-        <i className="fa-brands fa-react" aria-hidden="true"></i> Yuliya's Portfolio
+          <i className="fa-brands fa-react" aria-hidden="true"></i> Yuliya's
+          Portfolio
         </Link>
         <button
           class="navbar-toggler"
@@ -28,7 +29,7 @@ function Navbar() {
                 to="/"
                 end
                 className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
+                  isActive ? "nav-link active" : "nav-link"
                 }
               >
                 Home
@@ -38,7 +39,7 @@ function Navbar() {
               <NavLink
                 to="/projects"
                 className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
+                  isActive ? "nav-link active" : "nav-link"
                 }
               >
                 Project Gallery
@@ -48,7 +49,7 @@ function Navbar() {
               <NavLink
                 to="/skills"
                 className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
+                  isActive ? "nav-link active" : "nav-link"
                 }
               >
                 Skills
@@ -58,9 +59,9 @@ function Navbar() {
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
+                  isActive ? "nav-link active" : "nav-link"
                 }
-                >
+              >
                 Contact
               </NavLink>
             </li>
@@ -72,4 +73,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
