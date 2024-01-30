@@ -42,7 +42,7 @@ function Footer() {
         </a>
       </div>
       <div className="text-center d-block bg-dark text-light container-fluid pt-3">
-        <ul>Copyright Yuliya Tasheva &copy; {today.getFullYear()}</ul>
+        <ul>Yuliya Tasheva &copy; {today.getFullYear()}</ul>
       </div>
     </footer>
   );
