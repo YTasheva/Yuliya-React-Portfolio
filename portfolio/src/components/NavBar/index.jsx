@@ -2,15 +2,14 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./style.css";
 
-// Sets the "active" class on the appropriate navigation link item
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark container-fluid">
       <div className="container-fluid">
         <div className="navbar-brand">
-          <NavLink to="/" className="nav-link p-2 m-1">
-          <i className="fa-brands fa-react" aria-hidden="true"></i> Yuliya's Portfolio
-          </NavLink>
+          <Link to="/" className="nav-link p-2 m-1">
+          <i className="fa-brands fa-react" aria-hidden="true"></i> Yuliya Tasheva
+          </Link>
         </div>
         <button
           className="navbar-toggler"
