@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap/Form";
 
-function Contact() {
+function Contact(props) {
   return (
     <div>
       <h1 class name="text-center">
