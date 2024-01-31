@@ -15,16 +15,16 @@ function Home() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>About Me</h1>
+            <h1 className="text-center">About Me</h1>
             <hr />
-            <div className="container-clearfix">
-              <img className="w-100 mb-3" src={profileImage} alt="profile" />
+            <div className="container clearfix">
+              <img className="col-4 col-sm-3 col-md-2 float-start mb-3" src={profileImage} alt="profile" />
             </div>
           </Col>
         </Row>
         <Row>
-          <Col size="md-12">
-            <p>
+          <Col size="md-10">
+          <p className="text-align-right">
               I am a front-end developer student based in London who is
               currently transforming ideas into pixels with motive. I love
               creating web-wide wonders, designs you will fall for and cherish.
