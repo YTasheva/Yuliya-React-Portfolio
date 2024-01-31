@@ -3,13 +3,15 @@ import { Link, NavLink } from "react-router-dom";
 import "./style.css";
 
 // Sets the "active" class on the appropriate navigation link item
-function Navbar() {
+function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark container-fluid">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
-          Home
-        </Link>
+        <div className="navbar-brand">
+          <NavLink to="/" className="nav-link p-2 m-1">
+          <i className="fa-brands fa-react" aria-hidden="true"></i> Yuliya's Portfolio
+          </NavLink>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,27 +23,21 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink
-                to="/about"
-                end
-                className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }
-              >
-                About
-              </NavLink>
+    <div className="collapse navbar-collapse navbar-light bg-light" id="navbarNav">
+      <ul className="navbar-nav ms-auto">
+        <li className="nav-item">
+        <NavLink className="navbar-brand" to="/">
+          Home
+        </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to="/work"
+                to="/projectGallery"
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
               >
-                Work
+                ProjectGallery
               </NavLink>
             </li>
             <li className="nav-item">
@@ -64,14 +60,6 @@ function Navbar() {
                 Contact
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                to="/contact"
-                className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }
-              ></NavLink>
-            </li>
           </ul>
         </div>
       </div>
@@ -79,4 +67,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
