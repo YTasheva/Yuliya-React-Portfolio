@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 const Alert = (props) => {
   return (
@@ -11,12 +10,6 @@ const Alert = (props) => {
       {props.children}
     </div>
   );
-};
-
-Alert.propTypes = {
-  type: PropTypes.string.isRequired,
-  style: PropTypes.object,
-  children: PropTypes.node,
-};
+}
 
 export default Alert;
