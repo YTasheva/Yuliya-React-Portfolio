@@ -1,10 +1,16 @@
 import React from "react";
 import Card from "../components/Card";
+import Hero from "../components/Hero";
+import Project from "../pages/Project";
 import projects from "../projects.json";
+import { Container, Row, Col } from "react-bootstrap";
 
 function ProjectGallery() {
   return (
     <div>
+      <Hero backgroundImage="../images/ContactPage.jpg">
+      <h1>Contact</h1>
+    </Hero>
       <main id="projects" className="container-fluid">
         <h1 className="text-center">Projects Gallery</h1>
         <hr />
