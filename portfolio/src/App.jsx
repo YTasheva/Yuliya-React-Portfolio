@@ -21,7 +21,7 @@ function App() {
           <Route path=":id" element={<Project />} />
           </Route>
           <Route path="/Skills" element={<Skills />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Contact" element={<Contact />} /> 
         </Routes>
         <Footer />
       </div>
