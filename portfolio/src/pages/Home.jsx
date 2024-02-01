@@ -4,11 +4,12 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import profileImage from "../images/womens face- profile.jpg";
+import image from "../images/motion-wave.jpg";
 
 function Home() {
   return (
     <div>
-      <Hero backgroundImage="../images/colorful eyes 1.jpg">
+      <Hero backgroundImage="../images/Main.Page.jpg">
         <h1>Visual Story Teller</h1>
         <h2>Code that Catches the Eye</h2>
       </Hero>
@@ -48,7 +49,9 @@ function Home() {
         </Row>
       </Container>
     </div>
-  );
-}
+      );
+    };
+
 
 export default Home;
+
