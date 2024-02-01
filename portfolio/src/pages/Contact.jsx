@@ -1,51 +1,37 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap/Form";
+import { CDBInput, CDBCard, CDBCardBody, CDBIcon, CDBBtn, CDBContainer } from 'cdbreact';
 
-function Contact() {
+
+const Forms = () => {
   return (
-    <div>
-      <h1 class name="text-center">
-        Contact
-      </h1>
-      <p>
-        Feel free to get in touch with me via social media or email using the
-        contact form below.
-      </p>
-      <p>
-        I would truly like to hear what you think about the content and website
-        or share what is on your mind.
-      </p>
-      <p>Thank you for visiting my website!</p>
-
-      <Form.Floating className="mb-3">
-        <Form.Control
-          id="floatingInputCustom"
-          type="name"
-          placeholder="name"
-          custom
-        />
-        <label htmlFor="floatingInputCustom">Name</label>
-      </Form.Floating>
-      <Form.Floating>
-        <Form.Control
-          id="floatingInputCustom"
-          type="email"
-          placeholder="name@example.com"
-        />
-        <label htmlFor="floatingInputCustom">Email address</label>
-      </Form.Floating>
-      <FloatingLabel controlId="floatingTextarea" label="Message">
-        <Form.Control
-          as="textarea"
-          placeholder="Leave a message here"
-          style={{ height: "100px" }}
-        />
-      </FloatingLabel>
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </div>
+    <CDBContainer>
+      <CDBCard style={{ width: '30rem' }}>
+        <CDBCardBody className="mx-4">
+          <div className="text-center mt-4 mb-2">
+            <p className="h4 font-weight-bold"> Write to Us </p>
+          </div>
+          <CDBInput label="Your name" type="text" icon="user" iconClass="text-muted" />
+          <CDBInput label="Your email" type="email" icon="envelope" iconClass="text-muted" />
+          <CDBInput label="Subject" type="text" icon="tags" iconClass="text-muted" />
+          <CDBInput label="Your message" type="textarea" icon="pencil-alt" iconClass="text-muted" />
+          <CDBBtn
+            outline
+            color="secondary"
+            style={{ width: '40%' }}
+            className="btn-block mt-5 mx-auto"
+          >
+            Send
+            <CDBIcon far icon="paper-plane" />
+          </CDBBtn>
+        </CDBCardBody>
+      </CDBCard>
+    </CDBContainer>
   );
-}
+};
+export default Forms;
 
-export default Contact;
+
+
+
+
+
