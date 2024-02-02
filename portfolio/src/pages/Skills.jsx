@@ -1,8 +1,13 @@
 import React from "react";
+import Hero from "../components/Hero";
+import "../index.css";
+
 
 function Skills() {
   return (
     <>
+    <Hero backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Skills.jpg">
+      </Hero>
       <main id="skills">
         <h1 className="text-center">Skills</h1>
         <hr />
