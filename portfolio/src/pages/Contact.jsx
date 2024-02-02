@@ -1,28 +1,55 @@
 import React from "react";
-import { CDBInput, CDBCard, CDBCardBody, CDBIcon, CDBBtn, CDBContainer } from 'cdbreact';
+import {
+  CDBInput,
+  CDBCard,
+  CDBCardBody,
+  CDBIcon,
+  CDBBtn,
+  CDBContainer,
+  CDBAlert,
+} from "cdbreact";
 import Hero from "../components/Hero";
 
-
-const Forms = () => {
-  return (
-    <div>
+const Contact = ()  =>{
+  return ( 
+  <div>
     <Hero backgroundImage="../images/ContactPage.jpg">
       <h1>Contact</h1>
     </Hero>
     <CDBContainer>
-      <CDBCard style={{ width: '50rem' }}>
+      <CDBCard style={{ width: "50rem" }}>
         <CDBCardBody className="mx-4">
-          <div className="text-center mt-4 mb-2">
+        <div className="text-center mt-4 mb-2">
             <p className="h4 font-weight-bold"> Get In Touch </p>
           </div>
-          <CDBInput label="Your name" type="text" icon="user" iconClass="text-muted" />
-          <CDBInput label="Your email" type="email" icon="envelope" iconClass="text-muted" />
-          <CDBInput label="Subject" type="text" icon="tags" iconClass="text-muted" />
-          <CDBInput label="Your message" type="textarea" icon="pencil-alt" iconClass="text-muted" />
+          <CDBInput
+            label="Your name"
+            type="text"
+            icon="user"
+            iconClass="text-muted"
+          />
+          <CDBInput
+            label="Your email"
+            type="email"
+            icon="envelope"
+            iconClass="text-muted"
+          />
+          <CDBInput
+            label="Subject"
+            type="text"
+            icon="tags"
+            iconClass="text-muted"
+          />
+          <CDBInput
+            label="Your message"
+            type="textarea"
+            icon="pencil-alt"
+            iconClass="text-muted"
+          />
           <CDBBtn
             outline
-            color="secondary"
-            style={{ width: '30%' }}
+            color="danger"
+            style={{ width: "30%" }}
             className="btn-block mt-5 mx-auto"
           >
             Send
@@ -32,12 +59,17 @@ const Forms = () => {
       </CDBCard>
     </CDBContainer>
     </div>
-  );
+    );
 };
-export default Forms;
+  {/* <CDBAlert
+  color="danger"
+ style={{ width: "43rem" }}
+className={"mt-5 mx-5"}
+dismiss
+ >
+  <strong>Oops!</strong> Validation errors occurred. Please confirm the
+fields and submit it again.
+</CDBAlert>  */}
 
 
-
-
-
-
+export default Contact;
