@@ -3,42 +3,42 @@
       "id": "Project 1",
       "description": 
       "I am the sea on a moonless night. Calling, falling, slipping tides. Until the sea of glass we meet. At last completed and complete.",
-      "image url": "./images/Wave&Shore.GIF",
+      "image url": "./images/WaveShore.GIF",
       "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
       "live site_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
     },
     {
         "id": "Project 2",
         "description": "Every thought or deed. Every tree or seed. The big things come from the little dreams. Every world is made by make believe. Every fight comes from the fight within.",
-        "image url": "./images/the crow and woman 4.jpg",
+        "image url": "./images/Crow-woman 4.jpg",
         "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
         "live site_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
     },
     {
         "id": "Project 3",
         "description": "Begging the question, mongering fears. Stroking the eyes and tickling ears. The truth is seldom just as it appears.",
-        "image url": "./images/the cat with the cream 2.jpg",
+        "image url": "./images/Cat-with-the-cream 2.jpg",
         "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
         "live site_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
     },
     {
         "id": "Project 4",
       "description": "I'm looking for the rhyme and reason. Looking for the feeling. Breathe out let your mind unwind. Wide open let your own eyes shine.",
-      "image url": "./images/zebra mood.jpg",
+      "image url": "./images/zebraMood.jpg",
       "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
       "live site_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
     },
     {
         "id": "Project 5",
       "description": "You got wings but you're scared to fly. Deep down there's a hope inside. Brighter than the fears in my mind. ",
-      "image url": "./images/dolls on strings art collage 2.jpg",
+      "image url": "./images/dolls-strings-art.jpg",
       "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
       "live site_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
     },
     {
         "id": "Project 6",
       "description": "Keep running with the dark horses. Hope makes the blood change courses. Every fight comes from the fight within.",
-      "image url": "./images/leopard and a crow.jpg",
+      "image url": "./images/leopard-crow.jpg",
       "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
       "live site_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
     }
