@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import profileImage from "../images/womens face- profile.jpg";
+import "../index.css";
 
 function Home() {
   return (
