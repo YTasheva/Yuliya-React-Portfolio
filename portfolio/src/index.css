@@ -14,7 +14,7 @@ div[data-reactroot] {
 
 
 .hero {
-  height: 500px;
+  height: 700px;
   background-size: cover;
   background-position: right;
   position: relative;
@@ -23,7 +23,7 @@ div[data-reactroot] {
 .hero::after {
   content: "";
   display: block;
-  opacity: .4;
+  opacity: .0;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -61,6 +61,26 @@ div[data-reactroot] {
   right: 0;
   padding: 3px;
   background: #B8B8B8;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+  border: 6px solid white;
+  min-height: 400px;
+  width: 400px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.card .fa-spinner {
+  font-size: 180px;
+  position: absolute;
+  left: 25%;
+  top: 25%;
 }
 
 
