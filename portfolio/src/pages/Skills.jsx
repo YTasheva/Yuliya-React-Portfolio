@@ -9,8 +9,8 @@ function Skills() {
     <Hero backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Skills.jpg">
       </Hero>
       <main id="skills">
-        <h1 className="text-center">Skills</h1>
-        <hr />
+      <hr />
+        <h1 className="text-center mb-4">Skills</h1>
         <div className="container text-center">
           <div className="list-unstyled row justify-content-evenly">
             <div className="col-4">
