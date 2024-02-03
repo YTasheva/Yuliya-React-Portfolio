@@ -106,10 +106,9 @@ function Contact(props) {
             </button>
           </Container>
           <Container className="mt-4">
-            <h3>Awesome {name}!</h3>
+            <h3>Thank you {name}!</h3>
             <p>
-              I should tell you this, your interest in my site is much
-              appreciated {/*password*/}!
+              Your interest in my site is much appreciated {/*password*/}!
             </p>
           </Container>
         </form>
