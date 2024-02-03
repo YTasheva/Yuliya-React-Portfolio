@@ -1,11 +1,11 @@
 [
     {
-      "id": "Project 1",
+      "id": "CyberNet Detective",
       "description": 
       "I am the sea on a moonless night. Calling, falling, slipping tides. Until the sea of glass we meet. At last completed and complete.",
-      "image url": "./images/WaveShore.GIF",
-      "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
-      "live site_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
+      "image url": "https://raw.githubusercontent.com/YTasheva/CyberNet-Detective/main/assets/Images/AIBanner.png",
+      "html_url": "https://github.com/YTasheva/CyberNet-Detective",
+      "live site_url": "https://josh484.github.io/Cyber-security/"
     },
     {
         "id": "Project 2",
