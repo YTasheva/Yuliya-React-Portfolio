@@ -36,7 +36,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="btn-light"
         >
-          <i className="fa-solid fa-file" aria-hidden="true"></i> CV{" "}
+          <i className="bi bi-filetype-pdf m-2" aria-hidden="true"></i> CV{" "}
         </a>
       </div>
       <div className="text-center d-block bg-light text-dark container-fluid pt-3">
