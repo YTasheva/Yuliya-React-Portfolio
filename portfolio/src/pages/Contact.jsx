@@ -13,7 +13,7 @@ function Contact(props) {
   // const [eachEntry, setEachEntry] = useState(initialState);
   // const { name, email, message } = eachEntry;
 
-  const handleInputChange = (e) => {
+  const handleOnChange = (e) => {
     setEachEntry({ ...eachEntry, [e.target.name]: e.target.value });
   };
 
@@ -38,7 +38,7 @@ function Contact(props) {
         <h2>Get In Touch</h2>
       </div>
       <form onSubmit={handleSubmit}>
-        <form onSubmit={handleInputChange}>
+        <form onSubmit={handleOnChange}>
           <Container className="w-80 m-auto mt-5">
             <Row className="mb-5">
               <Col size="12">
@@ -55,8 +55,7 @@ function Contact(props) {
                   id="Name"
                   aria-describedby="nameHelp"
                   onChange={(e) =>
-                    setFormData({ ...formData, name: e.target.value })
-                  }
+                    setName(e.target.value)}
                 />
               </Col>
             </Row>
@@ -75,8 +74,7 @@ function Contact(props) {
                   id="Email"
                   aria-describedby="emailHelp"
                   onChange={(e) =>
-                    setFormData({ ...formData, email: e.target.value })
-                  }
+                    setEmail(e.target.value)}
                 />
                 <div id="emailHelp" className="form-text m-4">
                   I would truly like to hear what you think about the content
@@ -98,8 +96,7 @@ function Contact(props) {
                   id="Message"
                   rows="3"
                   onChange={(e) =>
-                    setFormData({ ...formData, message: e.target.value })
-                  }
+                    setMessage(e.target.value)}
                 ></textarea>
               </Col>
             </Row>
@@ -109,10 +106,10 @@ function Contact(props) {
             </button>
           </Container>
           <Container className="mt-4">
-            <h3>Awesome {formData.username}!</h3>
+            <h3>Awesome {name}!</h3>
             <p>
               I should tell you this, your interest in my site is much
-              appreciated {formData.password}!
+              appreciated {/*password*/}!
             </p>
           </Container>
         </form>
