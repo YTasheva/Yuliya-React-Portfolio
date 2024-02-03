@@ -8,7 +8,7 @@ function NavBar() {
       <div className="container-fluid">
         <div className="navbar-brand">
           <Link to="/" className="nav-link p-2 m-1">
-          <i className="fa-brands fa-logo" aria-hidden="true"></i><b> Yuliya Tasheva</b>
+          <i className="fa-brands fa-react" aria-hidden="true"></i><b> Yuliya Tasheva</b>
           </Link>
         </div>
         <button
