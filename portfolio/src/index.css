@@ -16,7 +16,7 @@ div[data-reactroot] {
 .hero {
   height: 700px;
   background-size: cover;
-  background-position: right;
+  background-position: center;
   position: relative;
 }
 
@@ -82,7 +82,4 @@ div[data-reactroot] {
   left: 25%;
   top: 25%;
 }
-
-
-
 
