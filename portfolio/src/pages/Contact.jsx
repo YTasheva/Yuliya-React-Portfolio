@@ -33,7 +33,7 @@ function Contact(props) {
         className="w-10"
         backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/contactMe.png"
       />
-
+      <hr />
       <div className="text-center mt-3 h4 font-weight-bold">
         <h2>Get In Touch</h2>
       </div>
@@ -54,8 +54,7 @@ function Contact(props) {
                   className="form-control bg-light"
                   id="Name"
                   aria-describedby="nameHelp"
-                  onChange={(e) =>
-                    setName(e.target.value)}
+                  onChange={(e) => setName(e.target.value)}
                 />
               </Col>
             </Row>
@@ -73,8 +72,7 @@ function Contact(props) {
                   className="form-control bg-light"
                   id="Email"
                   aria-describedby="emailHelp"
-                  onChange={(e) =>
-                    setEmail(e.target.value)}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
                 <div id="emailHelp" className="form-text m-4">
                   I would truly like to hear what you think about the content
@@ -95,8 +93,7 @@ function Contact(props) {
                   className="form-control bg-light"
                   id="Message"
                   rows="3"
-                  onChange={(e) =>
-                    setMessage(e.target.value)}
+                  onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
               </Col>
             </Row>
@@ -107,9 +104,7 @@ function Contact(props) {
           </Container>
           <Container className="mt-4">
             <h3>Thank you {name}!</h3>
-            <p>
-              Your interest in my site is much appreciated {/*password*/}!
-            </p>
+            <p>Your interest in my site is much appreciated {/*password*/}!</p>
           </Container>
         </form>
       </form>
