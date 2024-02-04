@@ -4,7 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import profileImage from "../images/womens face- profile.jpg";
-import image from "../images/whiteAbstract.jpg";
+import image from "../images/snakesChain.mp4";
 import "../index.css";
 
 const imageAltText = "white abstract";
@@ -20,7 +20,9 @@ const skillsList = [
   "Mobile user interfaces",
   "Graphic design",
   "Motion graphics and visual effects",
-  "HTML/CSS, Bootstrap, JavaScript, React, jQuery, JSON, ES6, APIs, The DOM",
+  "HTML/CSS, Bootstrap, JavaScript",
+  "React, jQuery, JSON, ES6", 
+  "The DOM, APIs ",
 ];
 
 const Quote =
@@ -37,7 +39,7 @@ function Home() {
         <Row>
           <Col size="md-11">
             <hr />
-            <h1 className="text-center mb-4">About Me</h1>
+            <h1 className="text-center mb-4 large">About Me</h1>
             <div className="container clearfix">
               <img
                 className="col-4 col-sm-3 col-md-2 float-start mb-3 mt-2 me-3"
@@ -77,10 +79,11 @@ function Home() {
               padding: "4rem",
               margin: "3rem auto",
               textAlign: "center",
+              position: "relative",
             }}
           >
             <h2>Key Competencies</h2>
-            <p className="large">{description}</p>
+            <p className="large mt-4">{description}</p>
             <hr />
             <ul
               style={{
