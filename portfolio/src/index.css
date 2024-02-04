@@ -12,12 +12,14 @@ div[data-reactroot] {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+}
 
 .hero {
-  height: 700px;
+  height: 650vh;
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: absolute;
 }
 
 .hero::after {
