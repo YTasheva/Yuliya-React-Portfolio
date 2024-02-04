@@ -10,29 +10,29 @@ import "../index.css";
 const imageAltText = "white abstract";
 
 const description =
- "An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. Having a high awareness of industry issues and trends, particularly regarding accessibility, usability, and emerging technologies.";
+  "An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. Having a high awareness of industry issues and trends, particularly regarding accessibility, usability, and emerging technologies.";
 
 const skillsList = [
- "Website design",
- "UX/UI experience",
-"Inclusive design",
- "Front-end development",
-"Mobile user interfaces",
-"Graphic design",
-"Motion graphics and visual effects",
-"HTML/CSS, Bootstrap, JavaScript, React, jQuery, JSON, ES6, APIs, The DOM"
+  "Website design",
+  "UX/UI experience",
+  "Inclusive design",
+  "Front-end development",
+  "Mobile user interfaces",
+  "Graphic design",
+  "Motion graphics and visual effects",
+  "HTML/CSS, Bootstrap, JavaScript, React, jQuery, JSON, ES6, APIs, The DOM",
 ];
 
 const Quote =
- "Learning new technologies and keeping abreast of markets developments. Adaptable and able to pick up new techniques. Creating websites that are user-friendly, effective and appealing. "; 
+  "Learning new technologies and keeping abreast of markets developments. Adaptable and able to pick up new techniques. Creating websites that are user-friendly, effective and appealing. ";
 
 function Home() {
-  
   return (
     <div>
       <Hero
         className="w-100 "
-        backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Main.Page.jpg" />
+        backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Main.Page.jpg"
+      />
       <Container style={{ marginTop: 20 }}>
         <Row>
           <Col size="md-11">
@@ -65,48 +65,43 @@ function Home() {
                 to create something amazing.
               </p>
             </div>
-            </Col>
-            </Row>
-            <hr />
-            <section className="padding" id="about">
-       <img className="background" src={image} alt={imageAltText} />
-      <div
-        style={{
-          backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
-      >
-        <h2>Key Competencies</h2>
-        <p className="large">{description}</p>
+          </Col>
+        </Row>
         <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
+        <section className="padding" id="about">
+          <img className="background" src={image} alt={imageAltText} />
+          <div
+            style={{
+              backgroundColor: "white",
+              width: "50%",
+              padding: "4rem",
+              margin: "3rem auto",
+              textAlign: "center",
+            }}
           >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{Quote}</p>
-      </div>
-      </section>
+            <h2>Key Competencies</h2>
+            <p className="large">{description}</p>
+            <hr />
+            <ul
+              style={{
+                textAlign: "left",
+                columns: 2,
+                fontSize: "1.25rem",
+                margin: "2rem 3rem",
+                gap: "3rem",
+              }}
+            >
+              {skillsList.map((skill) => (
+                <li key={skill}>{skill}</li>
+              ))}
+            </ul>
+            <hr />
+            <p style={{ padding: "1rem 3rem 0" }}>{Quote}</p>
+          </div>
+        </section>
       </Container>
     </div>
   );
-};
+}
 
 export default Home;
-
-
-
-
-
