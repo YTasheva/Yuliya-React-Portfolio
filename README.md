@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/github/issues/YTasheva/yuliya-react-portfolio.svg?style=for-the-badge" alt=""></a>
   <a href="https://github.com/YTasheva/Yuliya-React-Portfolio/network/members">
       <img src="https://img.shields.io/github/forks/YTasheva/yuliya-react-portfolio.svg?style=for-the-badge" alt=""></a>
-</p>
+
 
 ## Table of contents
 
@@ -130,7 +130,7 @@ The portfolio should look "polished" and "professional". Here are a few guidelin
 
 * User interface style is clean and polished.
 
-* Application uses a colour scheme other than the default Bootstrap colour palette.
+* The application uses a colour scheme other than the default Bootstrap colour palette.
 
 * Repository has a unique name.
 
