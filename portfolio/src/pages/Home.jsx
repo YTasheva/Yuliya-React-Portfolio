@@ -53,13 +53,13 @@ function Home() {
               />
               <p>
                 I am a front-end developer student based in London who is
-                currently transforming ideas into pixels with motive. "I love
+                currently transforming ideas into pixels with motive. I love
                 creating web-wide wonders, designs you will fall for and
                 cherish. Where imagination meets creativity and creativity meets
                 code. I design dreams, one click at a time, and create enjoyable
                 digital interactions and experiences that click and stick! I'm
                 quietly confident, naturally curious, and perpetually working on
-                improving my chops one design problem at a time".
+                improving my chops one design problem at a time.
               </p>
               <br />
               <p>
