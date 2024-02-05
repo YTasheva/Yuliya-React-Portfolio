@@ -10,11 +10,14 @@ const Card = ({ item }) => {
       </Link>
       <p className="card-text">{item.description}</p>
       <Link to={`{item.id}`}>
-        <img src={item.image_url} className="img-fluid img-thumbnail" alt={item.id} />
+        <img
+          src={item.image_url}
+          className="img-fluid img-thumbnail"
+          alt={item.id}
+        />
       </Link>
     </div>
   );
 };
 
 export default Card;
-

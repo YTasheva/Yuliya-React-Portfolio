@@ -20,9 +20,14 @@ const skillsList = [
   "Mobile user interfaces",
   "Graphic design",
   "Motion graphics and visual effects",
-  "HTML/CSS, Bootstrap, JavaScript",
-  "React, jQuery, JSON, ES6", 
-  "The DOM, APIs ",
+  "Graphics and media optimization",
+  "HTML5/CSS3, Bootstrap, JavaScript",
+  "React, jQuery, JSON, ES6",
+  "The DOM, AJAX, APIs, Node.js",
+  "Tools: VS Code, CLI Terminal",
+  "Git, GitHub, GitLab, NPM",
+  "Adobe After Effects, Adobe Illustrator",
+  "Adobe InDesign, Photoshop",
 ];
 
 const Quote =
@@ -70,39 +75,47 @@ function Home() {
           </Col>
         </Row>
       </Container>
-        <hr />
-        <section className="padding" id="about">
-          <video className="background" autoPlay playsInline muted loop src={video} alt={videoAltText} />
-          <div
+      <hr />
+      <section className="padding" id="about">
+        <video
+          className="background"
+          autoPlay
+          playsInline
+          muted
+          loop
+          src={video}
+          alt={videoAltText}
+        />
+        <div
+          style={{
+            backgroundColor: "white",
+            width: "60%",
+            padding: "4rem",
+            margin: "3rem auto",
+            textAlign: "center",
+            position: "relative",
+          }}
+        >
+          <h2>Key Competencies</h2>
+          <p className="large mt-4">{description}</p>
+          <hr />
+          <ul
             style={{
-              backgroundColor: "white",
-              width: "60%",
-              padding: "4rem",
-              margin: "3rem auto",
-              textAlign: "center",
-              position: "relative",
+              textAlign: "left",
+              columns: 2,
+              fontSize: "1.25rem",
+              margin: "2rem 3rem",
+              gap: "3rem",
             }}
           >
-            <h2>Key Competencies</h2>
-            <p className="large mt-4">{description}</p>
-            <hr />
-            <ul
-              style={{
-                textAlign: "left",
-                columns: 2,
-                fontSize: "1.25rem",
-                margin: "2rem 3rem",
-                gap: "3rem",
-              }}
-            >
-              {skillsList.map((skill) => (
-                <li key={skill}>{skill}</li>
-              ))}
-            </ul>
-            <hr />
-            <p style={{ padding: "1rem 3rem 0" }}>{Quote}</p>
-          </div>
-        </section>
+            {skillsList.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+          <hr />
+          <p style={{ padding: "1rem 3rem 0" }}>{Quote}</p>
+        </div>
+      </section>
     </div>
   );
 }
