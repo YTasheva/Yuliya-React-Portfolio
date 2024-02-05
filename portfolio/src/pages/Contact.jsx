@@ -102,7 +102,7 @@ function Contact(props) {
               Send
             </button>
           </Container>
-          <Container className="mt-4">
+          <Container className="mt-4 mb-5">
             <h3>Thank you {name}!</h3>
             <p>Your interest in my site is much appreciated {/*password*/}!</p>
           </Container>

@@ -4,7 +4,7 @@ import "../index.css";
 
 const Card = ({ item }) => {
   return (
-    <div className="card">
+    <div className="card mb-5">
       <Link to={`{item.id}`}>
         <h3 className="card-title">{item.id}</h3>
       </Link>
