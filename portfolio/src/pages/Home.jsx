@@ -4,10 +4,10 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import profileImage from "../images/womens face- profile.jpg";
-import image from "../images/snakesChain.mp4";
+import video from "../images/snakesChain.mp4";
 import "../index.css";
 
-const imageAltText = "white abstract";
+const videoAltText = "snakes";
 
 const description =
   "An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. Having a high awareness of industry issues and trends, particularly regarding accessibility, usability, and emerging technologies.";
@@ -32,7 +32,7 @@ function Home() {
   return (
     <div>
       <Hero
-        className="w-100 "
+        className="w-100"
         backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Main.Page.jpg"
       />
       <Container style={{ marginTop: 20 }}>
@@ -42,7 +42,7 @@ function Home() {
             <h1 className="text-center mb-4 large">About Me</h1>
             <div className="container clearfix">
               <img
-                className="col-4 col-sm-3 col-md-2 float-start mb-3 mt-2 me-3"
+                className="col-4 col-sm-3 col-md-2 float-start mb-3 mt-4 me-3"
                 src={profileImage}
                 alt="profile image"
               />
@@ -69,13 +69,14 @@ function Home() {
             </div>
           </Col>
         </Row>
+      </Container>
         <hr />
         <section className="padding" id="about">
-          <img className="background" src={image} alt={imageAltText} />
+          <video className="background" autoPlay playsInline muted loop src={video} alt={videoAltText} />
           <div
             style={{
               backgroundColor: "white",
-              width: "50%",
+              width: "60%",
               padding: "4rem",
               margin: "3rem auto",
               textAlign: "center",
@@ -102,7 +103,6 @@ function Home() {
             <p style={{ padding: "1rem 3rem 0" }}>{Quote}</p>
           </div>
         </section>
-      </Container>
     </div>
   );
 }
