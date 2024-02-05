@@ -17,72 +17,78 @@ const skillsList = [
   "Graphic design",
   "Motion graphics and visual effects",
   "Graphics and media optimization",
-  "HTML5/CSS, Bootstrap, JavaScript",
-  "React, jQuery, JSON, ES6", 
+  "HTML5/CSS3, Bootstrap, JavaScript",
+  "React, jQuery, JSON, ES6",
   "The DOM, AJAX, APIs, Node.js",
   "Tools: VS Code, CLI Terminal",
   "Git, GitHub, GitLab, NPM",
-  "Adobe After Effects, Illustrator, InDesign, Photoshop",
+  "Adobe After Effects, Adobe Illustrator",
+  "Adobe InDesign, Photoshop",
 ];
 
 const Quote =
   "Learning new technologies and keeping abreast of markets developments. Adaptable and able to pick up new techniques. Creating websites that are user-friendly, effective and appealing. ";
 
-  function Skills() {
-    return (
-      <div>
-        <Hero 
+function Skills() {
+  return (
+    <div>
+      <Hero
         className="w-100"
-        backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Skills.jpg" />
-        <main id="skills">
+        backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Skills.jpg"
+      />
+      <main id="skills">
         <section className="padding" id="about">
-            <video className="background" autoPlay playsInline muted loop src={video} alt={videoAltText} />
-            <div
+          <video
+            className="background"
+            autoPlay
+            playsInline
+            muted
+            loop
+            src={video}
+            alt={videoAltText}
+          />
+          <div
+            style={{
+              backgroundColor: "white",
+              width: "70%",
+              padding: "4rem",
+              margin: "3rem auto",
+              textAlign: "center",
+              position: "relative",
+            }}
+          >
+            <h2>Key Skills</h2>
+            <p className="large mt-4">{description}</p>
+            <hr />
+            <ul
               style={{
-                backgroundColor: "white",
-                width: "70%",
-                padding: "4rem",
-                margin: "3rem auto",
-                textAlign: "center",
-                position: "relative",
+                textAlign: "left",
+                columns: 2,
+                fontSize: "1.25rem",
+                margin: "2rem 3rem",
+                gap: "3rem",
               }}
             >
-              <h2>Key Skills</h2>
-              <p className="large mt-4">{description}</p>
-              <hr />
-              <ul
-                style={{
-                  textAlign: "left",
-                  columns: 2,
-                  fontSize: "1.25rem",
-                  margin: "2rem 3rem",
-                  gap: "3rem",
-                }}
-              >
-                {skillsList.map((skill) => (
-                  <li key={skill}>{skill}</li>
-                ))}
-              </ul>
-              <hr />
-              <p style={{ padding: "1rem 3rem 0" }}>{Quote}</p>
-            </div>
-          </section>
-          </main>
+              {skillsList.map((skill) => (
+                <li key={skill}>{skill}</li>
+              ))}
+            </ul>
+            <hr />
+            <p style={{ padding: "1rem 3rem 0" }}>{Quote}</p>
           </div>
-    );
-  }
-  
-
-
-
+        </section>
+      </main>
+    </div>
+  );
+}
 
 // function Skills() {
 //   return (
 //     <>
-//       <Hero 
+//       <Hero
 //        className="w-100"
 //       backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Skills.jpg" />
-      
+
 //       <main id="skills">
 //         <hr />
 //         <h1 className="text-center mb-4">Skills</h1>
