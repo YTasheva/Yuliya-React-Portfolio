@@ -20,7 +20,7 @@ div[data-reactroot] {
 }
 
 .hero {
-  height: 80vh;
+  height: 64vh;
   background-size: cover;
   background-position: center;
   position: absolute;
