@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+
 * {
   box-sizing: border-box;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
 html,
 body,
@@ -20,7 +20,7 @@ div[data-reactroot] {
 }
 
 .hero {
-  height: 650vh;
+  height: 80vh;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -67,13 +67,14 @@ section {
 
 section.min-heightt {
   min-height: 100vh;
+  position: relative;
 }
 
 section.padding {
   padding: 5rem 0;
 }
 
-section img.background {
+section video.background {
 height: 100%;
 left: 50%;
 object-fit: cover;
@@ -94,6 +95,28 @@ h2 {
   font-weight: 600;
   margin: 8;
   padding-top: 1rem;
+}
+
+li {
+  line-height: 1.7;
+}
+
+li:marker {
+  color: #4e567e;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+p.large {
+  font-size: 24px;
+}
+p.small {
+  font-size: 15px;
 }
 
 
@@ -124,6 +147,9 @@ h2 {
   position: relative;
   margin: 0 auto;
   margin-top: 30px;
+  object-fit: contain;
+  object-position: top;
+
 }
 
 .card img:hover {
