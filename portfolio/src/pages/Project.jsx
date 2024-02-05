@@ -20,9 +20,9 @@ const Project = () => {
                     <a href={project.html_url} target="_blank" rel="noreferrer">
                       <button className="btn bg-dark text-white m-2">
                         <i
-                          className="fa-solid fa-github-link"
+                          className="fa-solid fa-link"
                           aria-hidden="true"
-                        ></i>{" "}
+                        ></i>
                         GitHub
                       </button>
                     </a>
@@ -33,9 +33,9 @@ const Project = () => {
                     >
                       <button className="btn bg-dark text-white m-2">
                         <i
-                          className="fa-solid fa-external-link"
+                          className="fa-solid fa-link"
                           aria-hidden="true"
-                        ></i>{" "}
+                        ></i>
                         Deployed
                       </button>
                     </a>

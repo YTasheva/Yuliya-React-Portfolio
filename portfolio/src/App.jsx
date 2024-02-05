@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 
+
 function App() {
   return (
     <Router>
