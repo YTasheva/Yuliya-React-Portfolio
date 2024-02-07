@@ -50,7 +50,7 @@ function Skills() {
           <div
             style={{
               backgroundColor: "white",
-              width: "70%",
+              width: "75%",
               padding: "4rem",
               margin: "3rem auto",
               textAlign: "center",
