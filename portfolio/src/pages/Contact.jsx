@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Hero from "../components/Hero";
 import { Container, Row, Col } from "react-bootstrap";
 
-function Contact() {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -107,5 +107,4 @@ function Contact() {
 }
 
 export default Contact;
-
 
