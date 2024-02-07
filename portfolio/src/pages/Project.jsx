@@ -4,10 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import projects from "../projects.json";
 
 const Project = () => {
-  const { id } = useParams();
-  const project = projects.find((item) => item.id === id);
+  const { pid } = useParams();
+  const project = projects.find((item) => item.id === pid);
   return (
     <Container>
+      <h1>Hello world</h1>
       <Row>
         <Col>
           <main id="project">
@@ -19,10 +20,7 @@ const Project = () => {
                   <div>
                     <a href={project.html_url} target="_blank" rel="noreferrer">
                       <button className="btn bg-dark text-white m-2">
-                        <i
-                          className="fa-solid fa-link"
-                          aria-hidden="true"
-                        ></i>
+                        <i className="fa-solid fa-link" aria-hidden="true"></i>
                         GitHub
                       </button>
                     </a>
@@ -32,10 +30,7 @@ const Project = () => {
                       rel="noreferrer"
                     >
                       <button className="btn bg-dark text-white m-2">
-                        <i
-                          className="fa-solid fa-link"
-                          aria-hidden="true"
-                        ></i>
+                        <i className="fa-solid fa-link" aria-hidden="true"></i>
                         Deployed
                       </button>
                     </a>
