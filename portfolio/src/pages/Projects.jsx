@@ -19,7 +19,7 @@ function Projects() {
       <Hero backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/projects.jpg"></Hero>
       <hr />
       <main id="projects">
-      <h1 className="text-center mb-4">Project Gallery</h1>
+      <h1 className="text-center mb-4">Projects</h1>
         <Container style={{ marginTop: 30 }}>
           <Row>
             {projects.map((item) => (
