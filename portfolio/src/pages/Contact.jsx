@@ -18,6 +18,10 @@ const Contact = () => {
     console.log(`name is ${formData.name}`);
     console.log(`email is ${formData.email}`);
     console.log(`message is ${formData.message}`);
+setFormData({ name: "", email: "", message: "" });
+
+
+
   };
 
   return (
@@ -31,7 +35,7 @@ const Contact = () => {
         <h2>Get In Touch</h2>
       </div>
       <form onSubmit={handleSubmit}>
-        <Container className="w-80 m-auto mt-5">
+        <Container className="w-50 m-auto mt-5">
           <Row className="mb-5">
             <Col size="12">
               <label htmlFor="Name" className="form-label">
@@ -97,7 +101,7 @@ const Contact = () => {
             Submit
           </button>
         </Container>
-        <Container className="mt-4 mb-5">
+        <Container className="text-center mt-5 mb-5">
           <h3>Thank you {formData.name}!</h3>
           <p>Your interest in my site is much appreciated!</p>
         </Container>

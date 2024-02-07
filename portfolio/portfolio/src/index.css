@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#root > div,
+div[data-reactroot] {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+.hero {
+  height: 64vh;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  opacity: .0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1, .hero h2 {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  padding-top: 140px;
+  margin-top: 0;
+}
+
+#navbarNav a:hover {
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+  background-color: rgb(58, 54, 54);
+}
+
+
+section {
+  position: relative;
+  width: 100vw;
+}
+
+section.min-heightt {
+  min-height: 100vh;
+  position: relative;
+}
+
+section.padding {
+  padding: 5rem 0;
+}
+
+section video.background {
+height: 100%;
+left: 50%;
+object-fit: cover;
+pointer-events: none;
+position: absolute;
+top: 0;
+transform: translate(-50%, 0);
+width: 100vmax;
+z-index: -1;
+}
+
+hr {
+  margin: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 8;
+  padding-top: 1rem;
+}
+
+li {
+  line-height: 1.7;
+}
+
+li:marker {
+  color: #4e567e;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+p.large {
+  font-size: 24px;
+}
+p.small {
+  font-size: 15px;
+}
+
+
+.footer {
+  min-height: 100px;
+  background: #E5E5E5;
+  position: relative;
+  display: flex
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: #B8B8B8;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+  border: 6px solid white;
+  min-height: 400px;
+  width: 400px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+  object-fit: contain;
+  object-position: top;
+
+}
+
+.card img:hover {
+  cursor: pointer;
+}
+
+.Header {
+  width: 100%;
+  background-color: #000000;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  color: #1f0302;
+}
+
+
