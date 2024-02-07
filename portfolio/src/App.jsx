@@ -9,7 +9,6 @@ import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-
 function App() {
   return (
     <Router>
@@ -18,8 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-            <Route path="/Projects" element={<Projects />} />
-            <Route path=":id" element={<Project />} />
+          <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:pid" element={<Project />} />
+         
           <Route path="skills" element={<Skills />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
