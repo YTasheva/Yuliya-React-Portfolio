@@ -29,7 +29,10 @@ const Project = () => {
                       rel="noreferrer"
                     >
                       <button className="btn bg-dark text-white m-4">
-                        <i className="bi bi-caret-right-square m-1" aria-hidden="true"></i>
+                        <i
+                          className="bi bi-caret-right-square m-1"
+                          aria-hidden="true"
+                        ></i>
                         Deployed
                       </button>
                     </a>
