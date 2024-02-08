@@ -105,7 +105,6 @@ const Contact = () => {
       </form>
     </>
   );
-}
+};
 
 export default Contact;
-

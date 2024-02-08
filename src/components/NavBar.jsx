@@ -7,7 +7,8 @@ function NavBar() {
       <div className="container-fluid">
         <div className="navbar-brand">
           <Link to="/" className="nav-link p-2">
-          <i className="bi bi-feather m-2" aria-hidden="true"></i><b> Yuliya Tasheva</b>
+            <i className="bi bi-feather m-2" aria-hidden="true"></i>
+            <b> Yuliya Tasheva</b>
           </Link>
         </div>
         <button
@@ -21,12 +22,15 @@ function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-    <div className="collapse navbar-collapse navbar-dark bg-dark" id="navbarNav">
-      <ul className="navbar-nav ms-auto">
-        <li className="nav-item">
-        <NavLink className="navbar-brand" to="/">
-          Home
-        </NavLink>
+        <div
+          className="collapse navbar-collapse navbar-dark bg-dark"
+          id="navbarNav"
+        >
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <NavLink className="navbar-brand" to="/">
+                Home
+              </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
