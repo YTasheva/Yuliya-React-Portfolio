@@ -8,11 +8,10 @@ const Project = () => {
   const project = projects.find((item) => item.id === pid);
   return (
     <Container>
-      <h1>Hello world</h1>
       <Row>
         <Col>
           <main id="project">
-            <article className="text-center">
+            <article className="text-center mt-4">
               {project && (
                 <div>
                   <h1>{project.id}</h1>
@@ -20,7 +19,7 @@ const Project = () => {
                   <div>
                     <a href={project.html_url} target="_blank" rel="noreferrer">
                       <button className="btn bg-dark text-white m-2">
-                        <i className="fa-solid fa-link" aria-hidden="true"></i>
+                        <i className="bi bi-github m-2" aria-hidden="true"></i>
                         GitHub
                       </button>
                     </a>
@@ -29,8 +28,8 @@ const Project = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="btn bg-dark text-white m-2">
-                        <i className="fa-solid fa-link" aria-hidden="true"></i>
+                      <button className="btn bg-dark text-white m-4">
+                        <i className="bi bi-caret-right-square m-1" aria-hidden="true"></i>
                         Deployed
                       </button>
                     </a>
