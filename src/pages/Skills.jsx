@@ -34,7 +34,7 @@ function Skills() {
     <div>
       <Hero
         className="w-100"
-        backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Skills.jpg"
+        backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/src/images/Skills.jpg"
       />
       <main id="skills">
         <section className="padding" id="about">

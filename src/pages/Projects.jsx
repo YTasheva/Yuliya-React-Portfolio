@@ -16,7 +16,7 @@ import "../index.css";
 function Projects() {
   return (
     <div>
-      <Hero backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/projects.jpg"></Hero>
+      <Hero backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/src/images/projects.jpg"></Hero>
       <hr />
       <main id="projects">
       <h1 className="text-center mb-4">Projects</h1>

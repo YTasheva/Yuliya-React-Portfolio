@@ -38,7 +38,7 @@ function Home() {
     <div>
       <Hero
         className="w-100"
-        backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/portfolio/src/images/Main.Page.jpg"
+        backgroundImage="https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/src/images/Main.Page.jpg"
       />
       <Container style={{ marginTop: 20 }}>
         <Row>
@@ -89,7 +89,7 @@ function Home() {
         <div
           style={{
             backgroundColor: "white",
-            width: "60%",
+            width: "65%",
             padding: "4rem",
             margin: "3rem auto",
             textAlign: "center",
