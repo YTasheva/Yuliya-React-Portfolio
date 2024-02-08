@@ -142,9 +142,11 @@ The portfolio should look "polished" and "professional". Here are a few guidelin
 
 ## Screenshot
 
+<img width="1497" alt="Screenshot Bootstrap1" src="https://github.com/YTasheva/Yuliya-React-Portfolio/blob/main/src/images/PortfolioDemo.GIF">
+
 ## Links
 
-- [Deployed Application](https://yuliya-react-portfolio.netlify.app/))
+- [Deployed Application](https://yuliya-react-portfolio.netlify.app/)
 - [GitHub Repo](https://github.com/YTasheva/Yuliya-React-Portfolio)
 
 ## Installation
