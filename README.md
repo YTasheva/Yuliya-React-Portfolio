@@ -1,7 +1,7 @@
 <h1 align="center">Yuliya-React-Portfolio</h1>
   <br>
   <a href="https://github.com/YTasheva">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-thebadge" alt=""></a>
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-the-badge" alt=""></a>
   <a href="https://github.com/YTasheva/Yuliya-React-Portfolio/graphs/contributors">
       <img src="https://img.shields.io/github/contributors/YTasheva/Yuliya-React-Portfolio.svg?style=for-the-badge" alt=""></a>
   <a href="https://github.com/YTasheva/Yuliya-React-Portfolio/issues">
