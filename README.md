@@ -8,7 +8,8 @@
       <img src="https://img.shields.io/github/issues/YTasheva/yuliya-react-portfolio.svg?style=for-the-badge" alt=""></a>
   <a href="https://github.com/YTasheva/Yuliya-React-Portfolio/network/members">
       <img src="https://img.shields.io/github/forks/YTasheva/yuliya-react-portfolio.svg?style=for-the-badge" alt=""></a>
-      [![Netlify Status](https://api.netlify.com/api/v1/badges/901a0b24-9d17-4123-9a34-b9b3cd6be3de/deploy-status)](https://app.netlify.com/projects/yuliya-tasheva-portfolio/deploys)
+<a href= "https://app.netlify.com/projects/yuliya-tasheva-portfolio/deploys" alt=""></a>
+<img src="https://app.netlify.com/projects/yuliya-tasheva-portfolio/deploys"
       
 ## Table of contents
 
