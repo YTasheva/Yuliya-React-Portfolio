@@ -148,7 +148,7 @@ The portfolio should look "polished" and "professional". Here are a few guidelin
 
 ## Links
 
-- [Deployed Application](https://yuliya-react-portfolio.netlify.app/)
+- [Deployed Application](https://yuliya-tasheva-portfolio.netlify.app/)
 - [GitHub Repo](https://github.com/YTasheva/Yuliya-React-Portfolio)
 
 ## Installation
