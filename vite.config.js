@@ -12,6 +12,10 @@ export default defineConfig({
       "/api": "http://localhost:3001",
     },
   },
+  build: {
+    sourcemap: false,
+    assetsInlineLimit: 4096,
+  },
   test: {
     environment: "jsdom",
     globals: true,
