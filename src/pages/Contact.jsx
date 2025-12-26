@@ -4,7 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Contact = () => {
   const CONTACT_API =
-    import.meta.env.VITE_CONTACT_API || "/api/contact";
+    import.meta.env.VITE_CONTACT_API ||
+    (import.meta.env.DEV ? "/api/contact" : "/.netlify/functions/contact");
 
   const [formData, setFormData] = useState({
     name: "",
