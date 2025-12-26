@@ -1,0 +1,39 @@
+# Azure DevOps pipeline for the React/Vite app
+trigger:
+  - main
+
+pr:
+  - main
+
+variables:
+  NodeVersion: "18.x"
+
+pool:
+  vmImage: "ubuntu-latest"
+
+steps:
+  - task: NodeTool@0
+    displayName: "Use Node.js $(NodeVersion)"
+    inputs:
+      versionSpec: "$(NodeVersion)"
+
+  - task: Cache@2
+    displayName: "Cache npm"
+    inputs:
+      key: 'npm | "$(Agent.OS)" | package-lock.json'
+      restoreKeys: |
+        npm | "$(Agent.OS)"
+      path: $(NPM_CONFIG_CACHE)
+
+  - script: npm ci
+    displayName: "Install dependencies"
+
+  - script: npm run build
+    displayName: "Build"
+
+  - task: PublishBuildArtifacts@1
+    displayName: "Publish dist artifact"
+    inputs:
+      PathtoPublish: "dist"
+      ArtifactName: "dist"
+      publishLocation: "Container"
