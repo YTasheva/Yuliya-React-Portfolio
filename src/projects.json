@@ -1,71 +1,71 @@
 [
   {
     "id": "HomeWise.AI",
-    "description": "AI-assisted home insights concept showcasing property metrics, smart recommendations, and modern UI visuals.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/src/images/HomeWise.jpg?raw=1",
+    "description": "AI-assisted home insights with property metrics and smart recommendations.",
+    "image_url": "/images/optimized/homewise.webp",
     "html_url": "https://github.com/YTasheva/HomeWise.AI",
     "deployed_url": "https://ytasheva.github.io/HomeWise.AI/"
   },
   {
     "id": "EasyShip.AI",
-    "description": "Logistics assistant concept focused on shipment tracking, quotes, and streamlined user flows with AI accents.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/src/images/EasyShip.jpg?raw=1",
+    "description": "Logistics assistant for quotes, tracking, and streamlined shipment flows.",
+    "image_url": "/images/optimized/easyship.webp",
     "html_url": "https://github.com/YTasheva/EasyShip.AI",
     "deployed_url": "https://ytasheva.github.io/EasyShip.AI/"
   },
   {
     "id": "EduFlix Education",
-    "description": "Streamlined learning platform concept with curated courses, search, and responsive UI for an educational brand.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/EduFlix-Education/main/src/assets/images/EduFlix_Demo.gif",
+    "description": "Curated learning platform concept with responsive UI and course discovery.",
+    "image_url": "/images/eduflix.gif",
     "html_url": "https://github.com/YTasheva/EduFlix-Education",
     "deployed_url": "https://eduflix-education.netlify.app/"
   },
   {
     "id": "CyberNet Detective",
-    "description": "The application will give you detailed information about an IP address, and search who called or texted by using reverse phone lookup. It can help find who is behind a phone number or IP address, search for contact information and not the least to protect from spammers, scammers and frauds.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/CyberNet-Detective/main/assets/Images/CyberNet%20Recording.gif",
+    "description": "IP intel and reverse phone lookups to surface contact and fraud signals.",
+    "image_url": "/images/cybernet.gif",
     "html_url": "https://github.com/YTasheva/CyberNet-Detective",
     "deployed_url": "https://ytasheva.github.io/CyberNet-Detective/"
   },
   {
     "id": "5 Days Weather Forecast",
-    "description": "Five-day weather dashboard with city search, current conditions, and future forecasts powered by OpenWeather.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/Yuliya-React-Portfolio/main/src/images/Weather_Forecast.webp?raw=1",
+    "description": "City search with current conditions and five-day outlook via OpenWeather.",
+    "image_url": "/images/optimized/weather_forecast.webp",
     "html_url": "https://github.com/YTasheva/5-Days-Weather-Forecast",
     "deployed_url": "https://ytasheva.github.io/5-Days-Weather-Forecast/"
   },
   {
     "id": "Raven",
-    "description": "Every thought or deed. Every tree or seed. The big things come from the little dreams. Every world is made by make believe. Every fight comes from the fight within.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/Bootstrap-Portfolio/main/images/Raven.jpg",
+    "description": "Moody illustration exploring texture, contrast, and storytelling.",
+    "image_url": "/images/optimized/raven.webp",
     "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
     "deployed_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
   },
   {
     "id": "Melting",
-    "description": "Begging the question, mongering fears. Stroking the eyes and tickling ears. The truth is seldom just as it appears.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/Bootstrap-Portfolio/main/images/catCream.jpg",
+    "description": "Surreal portrait study with bold color blocking and gradients.",
+    "image_url": "/images/optimized/melting.webp",
     "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
     "deployed_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
   },
   {
     "id": "Zebra Mood",
-    "description": "I'm looking for the rhyme and reason. Looking for the feeling. Breathe out let your mind unwind. Wide open let your own eyes shine.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/Bootstrap-Portfolio/main/images/zebraMood.jpg",
+    "description": "High-contrast animal portrait with graphic striping and motion.",
+    "image_url": "/images/optimized/zebra-mood.webp",
     "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
     "deployed_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
   },
   {
     "id": "Dolls on Strings",
-    "description": "You got wings but you're scared to fly. Deep down there's a hope inside. Brighter than the fears in my mind.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/Bootstrap-Portfolio/main/images/dollsStrings.jpg",
+    "description": "Figurative illustration focused on movement and layered lighting.",
+    "image_url": "/images/optimized/dolls-strings.webp",
     "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
     "deployed_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
   },
   {
     "id": "Wild at Heart",
-    "description": "Keep running with the dark horses. Hope makes the blood change courses. Every fight comes from the fight within.",
-    "image_url": "https://raw.githubusercontent.com/YTasheva/Bootstrap-Portfolio/main/images/leopardCrow.jpg",
+    "description": "Wildlife composition pairing bold palette with cinematic framing.",
+    "image_url": "/images/optimized/wild-at-heart.webp",
     "html_url": "https://github.com/YTasheva/Bootstrap-Portfolio",
     "deployed_url": "https://ytasheva.github.io/Bootstrap-Portfolio/"
   }
