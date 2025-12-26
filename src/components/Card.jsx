@@ -7,7 +7,12 @@ const Card = ({ item }) => {
     <article className="project-card">
       <div className="project-thumb">
         <Link to={item.id} aria-label={`Open project ${item.id}`}>
-          <img src={item.image_url} className="img-fluid" alt={item.id} />
+          <img
+            src={item.image_url}
+            className="img-fluid"
+            alt={item.id}
+            loading="lazy"
+          />
         </Link>
         <div className="project-actions">
           <a
