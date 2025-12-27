@@ -254,6 +254,7 @@ p.small {
   margin: 0;
   line-height: 1.55;
   font-size: 0.98rem;
+  font-weight: 600;
 }
 
 .project-links {
@@ -362,6 +363,7 @@ p.small {
 .about-copy p {
   color: #4e567e;
   line-height: 1.6;
+  font-weight: 500;
 }
 
 .about-tags {
@@ -414,6 +416,10 @@ p.small {
   z-index: 1;
 }
 
+.competency-card .large {
+  font-weight: 500;
+}
+
 .skills-columns {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -437,6 +443,7 @@ p.small {
   text-align: center;
   margin-top: 1rem;
   color: #4e567e;
+  font-weight: 500;
 }
 
 .skills-page {
@@ -579,6 +586,7 @@ p.small {
   padding-left: 1.1rem;
   color: #4e567e;
   line-height: 1.55;
+  font-weight: 600;
 }
 
 .footer {
@@ -875,8 +883,8 @@ h6 {
 }
 
 .contact-submit {
-  background: #0d3b66;
-  border-color: #0a2f4f;
+  background: #000000;
+  border-color: #000000;
   color: #fdfcf9;
   font-weight: 700;
   padding-inline: 1.2rem;
@@ -884,22 +892,22 @@ h6 {
 }
 
 .contact-submit:hover {
-  background: #0a2f4f;
-  border-color: #08263f;
+  background: #b71c1c;
+  border-color: #8b1a1a;
   color: #fdfcf9;
   transform: translateY(-1px);
-  box-shadow: 0 10px 24px rgba(13, 59, 102, 0.25);
+  box-shadow: 0 10px 24px rgba(183, 28, 28, 0.25);
 }
 
 .contact-submit:active,
 .contact-submit:focus {
-  background: #000000;
-  border-color: #000000;
+  background: #8b1a1a;
+  border-color: #701414;
   color: #fdfcf9;
 }
 
 .contact-submit:focus-visible {
-  box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 0 0.15rem rgba(183, 28, 28, 0.28);
 }
 
 .custom-alert.alert-info {
