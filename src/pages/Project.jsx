@@ -30,7 +30,7 @@ const Project = () => {
               {project && (
                 <div>
                   <h1>{project.id}</h1>
-                  <p>{project.description}</p>
+                  <p className="project-detail-summary">{project.description}</p>
                   <div>
                     <a href={project.html_url} target="_blank" rel="noreferrer">
                       <button className="btn bg-dark text-white m-2 project-btn">

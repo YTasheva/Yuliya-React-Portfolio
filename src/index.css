@@ -254,7 +254,7 @@ p.small {
   margin: 0;
   line-height: 1.55;
   font-size: 0.98rem;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .project-links {
@@ -540,9 +540,14 @@ p.small {
     justify-content: center;
   }
 
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
+.skills-grid {
+  grid-template-columns: 1fr;
+}
+}
+
+.project-detail-summary {
+  font-weight: 800;
+  color: #111111;
 }
 
 .skill-card {
