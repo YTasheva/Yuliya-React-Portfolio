@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ytasheva.github.io/Yuliya-React-Portfolio/sitemap.xml

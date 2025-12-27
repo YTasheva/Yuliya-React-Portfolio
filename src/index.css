@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --accent-primary: #b71c1c;
+  --accent-primary-dark: #8b1a1a;
+  --accent-blue: #0d3b66;
+  --text-main: #1f2333;
+  --text-strong: #0a0a0a;
+}
+
 html,
 body,
 #root,
@@ -121,9 +129,9 @@ p.small {
 }
 
 .projects-page {
-  background: radial-gradient(circle at 15% 20%, rgba(255, 204, 188, 0.28), transparent 32%),
-    radial-gradient(circle at 85% 10%, rgba(134, 151, 255, 0.22), transparent 26%),
-    linear-gradient(180deg, #f7f8fb 0%, #eef1f6 100%);
+  background: radial-gradient(circle at 15% 20%, rgba(173, 197, 255, 0.24), transparent 32%),
+    radial-gradient(circle at 78% 8%, rgba(140, 173, 255, 0.2), transparent 28%),
+    linear-gradient(180deg, #fdfcf9 0%, #f4f7fb 100%);
   color: #1f2333;
   min-height: 100vh;
 }
@@ -142,6 +150,7 @@ p.small {
   max-width: 700px;
   margin: 0 auto;
   color: #4e567e;
+  font-weight: 600;
 }
 
 .project-grid {
@@ -223,14 +232,21 @@ p.small {
 }
 
 .project-title {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 800;
-  color: #b71c1c;
+  color: #0a0a0a;
   text-decoration: none;
+  letter-spacing: 0.01em;
+  text-shadow: 0.5px 0.5px 0 rgba(0, 0, 0, 0.15),
+    1px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .project-title:hover {
-  color: #8b1a1a;
+  color: #b71c1c;
+  text-shadow: 0.5px 0.5px 0 rgba(0, 0, 0, 0.2),
+    1px 1px 0 rgba(0, 0, 0, 0.16),
+    1.5px 1.5px 0 rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
 }
 
 .project-summary {
@@ -269,6 +285,32 @@ p.small {
   font-size: 1.05rem;
 }
 
+.project-btn {
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.project-btn:active {
+  animation: btnPulse 260ms ease-out;
+}
+
+.btn-pulse {
+  animation: btnPulse 260ms ease-out;
+}
+
+@keyframes btnPulse {
+  0% {
+    transform: scale(1) translateY(0);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  40% {
+    transform: scale(0.94) translateY(1px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.16);
+  }
+}
 .home-page {
   background: linear-gradient(180deg, #f7f8fb 0%, #eef1f6 100%);
   color: #1f2333;
@@ -449,6 +491,7 @@ p.small {
   color: #4e567e;
   font-size: 1.05rem;
   line-height: 1.6;
+  font-weight: 600;
 }
 
 .eyebrow {
@@ -627,7 +670,7 @@ p.small {
   padding: 0.6rem 1.1rem;
   border-radius: 10px;
   border: 1px solid #8b1a1a;
-  background: #b71c1c;
+  background: #8b1a1a;
   color: #ffffff;
   font-weight: 700;
   text-decoration: none;
@@ -723,6 +766,7 @@ h6 {
   font-size: 1rem;
   color: #4e567e;
   margin-bottom: 1.5rem;
+  font-weight: 500;
 }
 
 .contact-meta {
@@ -739,13 +783,21 @@ h6 {
 }
 
 .contact-meta a {
-  color: #c62828;
+  color: #000000;
   text-decoration: none;
   font-weight: 700;
 }
 
 .contact-meta a:hover {
-  text-decoration: underline;
+  color: #b71c1c;
+}
+
+.contact-linkedin {
+  color: #000000;
+}
+
+.contact-linkedin:hover {
+  color: #b71c1c;
 }
 
 .contact-form .form-control {
@@ -756,8 +808,8 @@ h6 {
 }
 
 .contact-form .form-control:focus {
-  border-color: #c62828;
-  box-shadow: 0 0 0 0.15rem rgba(198, 40, 40, 0.18);
+  border-color: #000000;
+  box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.2);
 }
 
 .captcha-group .form-label {
@@ -793,20 +845,41 @@ h6 {
 }
 
 .contact-submit {
-  background: #b71c1c;
-  border-color: #8b1a1a;
+  background: #0d3b66;
+  border-color: #0a2f4f;
+  color: #fdfcf9;
   font-weight: 700;
   padding-inline: 1.2rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .contact-submit:hover {
-  background: #b71c1c;
-  border-color: #8b1a1a;
+  background: #0a2f4f;
+  border-color: #08263f;
+  color: #fdfcf9;
   transform: translateY(-1px);
-  box-shadow: 0 10px 24px rgba(139, 26, 26, 0.25);
+  box-shadow: 0 10px 24px rgba(13, 59, 102, 0.25);
+}
+
+.contact-submit:active,
+.contact-submit:focus {
+  background: #000000;
+  border-color: #000000;
+  color: #fdfcf9;
 }
 
 .contact-submit:focus-visible {
-  box-shadow: 0 0 0 0.15rem rgba(183, 28, 28, 0.28);
+  box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.28);
+}
+
+.custom-alert.alert-info {
+  background-color: #f4f8ff;
+  color: #0d3b66;
+  border: 1px solid #d8e7ff;
+}
+
+.custom-alert.alert-success {
+  background-color: #f2fbf5;
+  color: #1f6b3a;
+  border: 1px solid #d7efde;
 }
