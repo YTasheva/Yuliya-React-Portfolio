@@ -19,7 +19,7 @@ const Card = ({ item }) => {
             href={item.html_url}
             target="_blank"
             rel="noreferrer"
-            className="btn btn-outline-dark btn-sm"
+            className="btn btn-outline-dark btn-sm project-btn"
           >
             <i className="bi bi-github me-1" aria-hidden="true"></i>
             Code
@@ -28,7 +28,7 @@ const Card = ({ item }) => {
             href={item.deployed_url}
             target="_blank"
             rel="noreferrer"
-            className="btn btn-dark btn-sm"
+            className="btn btn-dark btn-sm project-btn"
           >
             <i className="bi bi-box-arrow-up-right me-1" aria-hidden="true"></i>
             Live

@@ -4,7 +4,7 @@ import video from "../images/waves.mp4";
 import "../index.css";
 
 const description =
-  "Full-stack creative focused on interfaces that feel sharp, inclusive, and fast. I blend design systems, frontend engineering, and motion to ship polished products.";
+  "Product-minded front-end specialist crafting sharp, inclusive, fast interfaces. I blend design systems, UI engineering, and motion to ship polished experiences.";
 
 const pillars = [
   {

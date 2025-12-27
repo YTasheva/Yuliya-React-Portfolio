@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import projects from "../projects.json";
@@ -6,6 +6,21 @@ import projects from "../projects.json";
 const Project = () => {
   const { pid } = useParams();
   const project = projects.find((item) => item.id === pid);
+
+  useEffect(() => {
+    const jq = window.jQuery || window.$;
+    if (!jq) return;
+
+    const handleClick = function () {
+      const $el = jq(this);
+      $el.addClass("btn-pulse");
+      setTimeout(() => $el.removeClass("btn-pulse"), 220);
+    };
+
+    jq(".project-btn").on("click", handleClick);
+    return () => jq(".project-btn").off("click", handleClick);
+  }, []);
+
   return (
     <Container>
       <Row>
@@ -18,7 +33,7 @@ const Project = () => {
                   <p>{project.description}</p>
                   <div>
                     <a href={project.html_url} target="_blank" rel="noreferrer">
-                      <button className="btn bg-dark text-white m-2">
+                      <button className="btn bg-dark text-white m-2 project-btn">
                         <i className="bi bi-github m-2" aria-hidden="true"></i>
                         GitHub
                       </button>
@@ -28,7 +43,7 @@ const Project = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="btn bg-dark text-white m-4">
+                      <button className="btn bg-dark text-white m-4 project-btn">
                         <i
                           className="bi bi-caret-right-square m-1"
                           aria-hidden="true"

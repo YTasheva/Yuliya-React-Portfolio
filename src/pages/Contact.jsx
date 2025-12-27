@@ -137,6 +137,7 @@ const Contact = () => {
                     href="https://uk.linkedin.com/in/yuliya-stella-tasheva"
                     target="_blank"
                     rel="noreferrer"
+                    className="contact-linkedin"
                   >
                     LinkedIn profile
                   </a>
@@ -221,8 +222,8 @@ const Contact = () => {
                   <div
                     className={`alert mt-3 ${
                       status.type === "error"
-                        ? "alert-danger"
-                        : "alert-success"
+                        ? "alert-info custom-alert"
+                        : "alert-success custom-alert"
                     }`}
                     role="alert"
                   >
@@ -232,7 +233,7 @@ const Contact = () => {
 
                 <button type="submit" className="btn btn-dark contact-submit mt-4">
                   <i className="bi bi-send m-1" aria-hidden="true"></i>
-                  Send message
+                  Send Message
                 </button>
               </form>
             </Col>

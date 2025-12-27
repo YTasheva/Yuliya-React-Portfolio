@@ -23,6 +23,18 @@ function Projects() {
         .delay(120 * index)
         .animate({ opacity: 1, marginTop: "0px" }, 420);
     });
+
+    const handleClick = function () {
+      const $el = jq(this);
+      $el.addClass("btn-pulse");
+      setTimeout(() => $el.removeClass("btn-pulse"), 220);
+    };
+
+    jq(".project-btn").on("click", handleClick);
+
+    return () => {
+      jq(".project-btn").off("click", handleClick);
+    };
   }, []);
 
   return (
